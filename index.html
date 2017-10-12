@@ -1,0 +1,60 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+  <script>
+
+  function randombg(){
+    var random= Math.floor(Math.random() * 6) + 0;
+    var bigSize = ["url('Images/i(1).jpg')",
+                   "url('Images/i(2).jpg')",
+                   "url('Images/i(3).jpg')",
+                   "url('Images/i(4).jpg')",
+                   "url('Images/i(5).jpg')",
+                   "url('Images/i(6).jpg')"];
+    document.getElementById("random").style.backgroundImage=bigSize[random];
+  }
+
+  </script>
+</head>
+<body onload="randombg()" id="random">
+
+  <nav class="left">
+  <h1 onclick="off()"> Lovechild</h1> </br>
+  <h1 onclick="on()">  About </h1>
+  <a href="mailto:name@email.com">  Contact </a>
+</nav>
+
+<div id="overlay">
+<about> <h2> In an increasingly brand-saturated world, businesses need visual eloquence and clarity. </br></br> Of purpose, of identity and of expression. LOVECHILD is an institution where the quality of this expression is built on the commercial belief that craft lies at the heart of engagement. </h2>
+<p>As a partnership, we represent over 40 years of international creative  leadership experience, working across commercial, luxury, cultural and corporate sectors in New York, Paris, London, Switzerland and Australasia. This first year has seen the practice launch globally prolific brands and  fortify businesses, collaborating with creative partners such as Mario Sorrenti  in New York, Aesop, Kristian Schuller in Paris and PICS in London.
+</p></about>
+</div>
+
+
+
+  <video playsinline autoplay muted loop poster="fb.png" id="bgvid">
+      <source src="film.mp4" type="video/mp4">
+  </video>
+
+
+
+
+  <script>
+  function on() {
+      document.getElementById("overlay").style.display = "inline-block";
+  }
+
+  function off() {
+      document.getElementById("overlay").style.display = "none";
+  }
+  </script>
+
+
+
+
+
+</body>
+</html>

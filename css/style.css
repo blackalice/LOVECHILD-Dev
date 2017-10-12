@@ -1,0 +1,167 @@
+/* =============================================================================
+  Resets
+============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video{
+    margin: 0;
+    padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+
+html,
+body {
+  height: 100%;
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(fb.png) no-repeat;
+background-size: cover;
+}
+
+/* =============================================================================
+  TYPE
+============================================================================= */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color:white;
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 2em;
+}
+
+
+/* =============================================================================
+  NAV
+============================================================================= */
+
+.left {
+  width: 15%;
+  margin: 3%;
+  padding: 50px;
+  background-color: black;
+  display: block;
+  z-index: 5;
+}
+
+nav {
+z-index: 5;
+position: fixed;
+}
+
+
+
+/* =============================================================================
+  About
+============================================================================= */
+#overlay {
+    position: inline;
+    display: none;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 1;
+    cursor: default;
+    min-height: 100%;
+}
+
+
+
+about{
+margin: 5%;
+float:right;
+height: auto;
+display:block;
+width: 60%;
+}
+
+
+
+/* =============================================================================
+  MEDIA QUERIES
+============================================================================= */
+
+
+@media screen and (max-device-width: 800px) {
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+    }
+    #bgvid {
+        display: none;
+    }
+    .left {
+      width: 95%;
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+      display: fixed;
+      z-index: 5;
+    }
+    about{
+      margin: 5%;
+      float:right;
+      height: auto;
+      display:block;
+      margin-top: 20%;
+      width: auto;
+
+    }
+
+    #overlay {
+        position: block;
+        margin:0px;
+        padding:0px;
+        float:left;
+        display: none;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.85);
+        z-index: 1;
+        cursor: default;
+        min-height: 100%;
+    }
+
+
+
+
+}
