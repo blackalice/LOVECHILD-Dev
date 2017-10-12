@@ -1,11 +1,11 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="https://use.typekit.net/cus8tqp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
   <script>
-
   function randombg(){
     var random= Math.floor(Math.random() * 6) + 0;
     var bigSize = ["url('Images/i(1).jpg')",
@@ -16,14 +16,13 @@
                    "url('Images/i(6).jpg')"];
     document.getElementById("random").style.backgroundImage=bigSize[random];
   }
-
   </script>
 </head>
 <body onload="randombg()" id="random">
 
   <nav class="left">
-  <h1 onclick="off()"> Lovechild</h1> </br>
-  <h1 onclick="on()">  About </h1>
+  <a onclick="off()">Lovechild.</a> </br></br>
+  <a onclick="on()">About </a></br>
   <a href="mailto:name@email.com">  Contact </a>
 </nav>
 
@@ -35,7 +34,7 @@
 
 
 
-  <video playsinline autoplay muted loop poster="fb.png" id="bgvid">
+  <video playsinline autoplay muted loop poster="Images/i(1).jpg" id="bgvid">
       <source src="film.mp4" type="video/mp4">
   </video>
 
@@ -51,8 +50,6 @@
       document.getElementById("overlay").style.display = "none";
   }
   </script>
-
-
 
 
 
