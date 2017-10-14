@@ -122,7 +122,8 @@ position: fixed;
 a svg {
   fill: white; !important
   display: block;
-  max-width:100%;
+  width:100%;
+  max-width:300px;
 max-height:100%;
    height: auto;
 }
@@ -152,7 +153,6 @@ bar {
   About
 ============================================================================= */
 #overlay {
-    position: inline;
     display: none;
     width: 100%;
     height: auto;
@@ -165,21 +165,27 @@ bar {
     cursor: default;
     min-height: 100%;
     animation: fadeIn 1s;
+    float:left;
 }
 
 space {
-  width: 15%;
-  display:inline-block;
-  background-color: black;
-  float:left;}
+  width: 300px;
+  margin: 75px 3% 0px 3% ;
+  float:left;
+    display:inline-block;
+    height: 100%;
+    background-color: yellow;
+    clear:none;
+}
 
 right {
-  width: 85%;
+  width:auto;
+  margin: 75px 3% 0px 0px ;
   float: left;
-  display: block;
+  display: inline-block;
+  clear:none;
 }
 about{
-margin: 30px 30px 10% 10%;
 height: auto;
 float:left;
 display:block;
