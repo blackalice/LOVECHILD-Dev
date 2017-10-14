@@ -1,5 +1,7 @@
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://use.typekit.net/cus8tqp.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -17,24 +19,64 @@
     document.getElementById("random").style.backgroundImage=bigSize[random];
   }
   </script>
+
+
+<script>
+$(document).ready(function() {
+(function(){
+  	var showChar = 289;
+    var ellipsestext = "";
+
+	$('.truncate').each(function() {
+        var content = $(this).html();
+        if(content.length > showChar) {
+
+            var c = content.substr(0, showChar);
+ 			var h = content;
+            var html = '<div class="truncate-text" style="display:block">' + c + '<span class="moreellipses">' + ellipsestext + '&nbsp;&nbsp;<a href="" class="morelink moreless more"></br> </br>show more</a></span></span></div><div class="truncate-text" style="display:none">' + h + '<a href="" class="moreless less">Less</a></span></div>';
+
+            $(this).html(html);
+        }
+
+    });
+
+    $(".moreless").click(function(){
+		var thisEl = $(this);
+        if(thisEl.hasClass("less")) {
+        	thisEl.closest('.truncate-text').prev('.truncate-text').toggle();
+    		thisEl.closest('.truncate-text').slideToggle();
+        } else {
+			thisEl.closest('.truncate-text').toggle();
+			thisEl.closest('.truncate-text').next('.truncate-text').fadeToggle();
+        }
+	   	return false;
+    });
+	/* end iffe */
+	}());
+
+/* end ready */
+});
+</script>
+
 </head>
 
 <body onload="randombg()" id="random">
 
 
-
+<bar>
+</bar>
   <nav class="left">
   <ul id="menu">
   <li class="title" >  <a onclick="off()">Lovechild.</a></li>
-  <li class="sub">  <a onclick="on()">About</a></li>
-  <li class="sub">  <a href="mailto:name@email.com">Contact</a></li>
+  <li>  <a onclick="on()">About</a></li>
+  <li>  <a href="mailto:name@email.com">Contact</a></li>
 </ul>
 </nav>
 
 <div id="overlay">
-<about> <h2> In an increasingly brand-saturated world, businesses need visual eloquence and clarity. </br></br> Of purpose, of identity and of expression. LOVECHILD is an institution where the quality of this expression is built on the commercial belief that craft lies at the heart of engagement. </h2>
-<p>As a partnership, we represent over 40 years of international creative  leadership experience, working across commercial, luxury, cultural and corporate sectors in New York, Paris, London, Switzerland and Australasia. This first year has seen the practice launch globally prolific brands and  fortify businesses, collaborating with creative partners such as Mario Sorrenti  in New York, Aesop, Kristian Schuller in Paris and PICS in London.
-</p></about>
+<about class="truncate"> <h2> In an increasingly brand-saturated world, businesses need visual eloquence and clarity. </br></br> Of purpose, of identity and of expression. LOVECHILD is an institution where the quality of this expression is built on the commercial belief that craft lies at the heart of engagement. </br></br>
+As a partnership, we represent over 40 years of international creative  leadership experience, working across commercial, luxury, cultural and corporate sectors in New York, Paris, London, Switzerland and Australasia. This first year has seen the practice launch globally prolific brands and  fortify businesses, collaborating with creative partners such as Mario Sorrenti  in New York, Aesop, Kristian Schuller in Paris and PICS in London.
+</h2></about>
 </div>
 
 
@@ -45,7 +87,8 @@
 
 
 
-
+<bar class="bottombar">
+</bar>
   <script>
   function on() {
       document.getElementById("overlay").style.display = "inline-block";
