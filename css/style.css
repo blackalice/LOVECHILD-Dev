@@ -121,10 +121,10 @@ position: fixed;
 }
 
 a svg {
-  fill:white;
+  fill: white; !important
 }
 a svg:hover {
-  fill: grey;
+  fill: grey; !important
 }
 /* =============================================================================
 BARS
