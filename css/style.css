@@ -22,6 +22,9 @@ html,
 body {
   height: 100%;
 }
+body {
+  background-color: black;
+}
 
 video#bgvid {
 position: fixed;
@@ -36,7 +39,8 @@ z-index: -100;
 -moz-transform: translateX(-50%) translateY(-50%);
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
-background: url('Images/i(6).jpg') no-repeat;
+background-color: black;
+/*background: url('Images/i(6).jpg') no-repeat;*/
 background-size: cover;
 }
 
@@ -92,6 +96,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: static;
 }
 
 
@@ -100,14 +105,7 @@ ul {
 }
 
 
-.left {
-  width: 15%;
-margin: 75px 3% 0px 3% ;
-float:left;
-  background-color: rgba(0, 0, 0, 0);
-  display: block;
-  z-index: 5;
-}
+
 
 nav {
 z-index: 5;
@@ -124,8 +122,7 @@ a svg {
   display: block;
   width:100%;
   max-width:300px;
-max-height:100%;
-   height: auto;
+  height: auto;
 }
 a svg:hover {
   fill: grey; !important
@@ -159,7 +156,8 @@ FLEXHAX
 }
 
 .col-complementary {
-  flex: 3;
+flex: 3;
+
 }
 
 /* Responsive: */
@@ -178,14 +176,13 @@ FLEXHAX
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  height: 100%;
 }
 
 .col {
-  padding: 1em;
-  margin: 0 2px 2px 0;
+  padding: 10% 0 0 50px;
+  margin: 0 50px 0 0;
 }
-
-
 
 
 
@@ -211,7 +208,7 @@ FLEXHAX
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,1);
+
     z-index: 2;
     cursor: default;
     min-height: 100%;
