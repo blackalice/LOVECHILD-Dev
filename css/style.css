@@ -57,11 +57,10 @@ a {
 .morelink {
   font-family: 'Lora', serif;
   color:white;
-  cursor: text;
   text-transform: none;
-
     font-weight: normal;
-  font-size: 0.8em;
+  font-size: 0.6em;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -102,9 +101,9 @@ ul {
 
 
 .left {
-  width: 200px;
-  margin: 50px 3% 3% 3% ;
-  padding: 50px;
+  width: 40%;
+margin: 10% 3% 3% 3% ;
+
   background-color: rgba(0, 0, 0, 0);
   display: block;
   z-index: 5;
@@ -122,6 +121,9 @@ position: fixed;
 
 a svg {
   fill: white; !important
+  display: block;
+   width: 250px;
+   height: auto;
 }
 a svg:hover {
   fill: grey; !important
@@ -170,9 +172,9 @@ about{
 margin: 50px 3% 0 200px ;
 float:right;
 height: auto;
+width: 60%;
 display:block;
-width: 80%;
-max-width:
+
 }
 
 /* =============================================================================
@@ -267,6 +269,7 @@ ul {
 .title {
   padding-bottom: 0;
   display: inherit;
+
 }
 
 
