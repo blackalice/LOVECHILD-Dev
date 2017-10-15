@@ -230,20 +230,28 @@ html{animation: fadeIn 0.2s}
 ============================================================================= */
 /* Responsive: */
 
-@media only screen and (min-width: 1100px) {
-  .layout {
-    display: flex;
-  }
+@media screen and (max-width: 1080px) {
+
 
  overlay {
 
       margin-top: 400px;
   }
+  #random {
+       background:#000 no-repeat center center fixed;
+       background-size: cover;
+  }
 
+
+    #bgvid {
+        display: none;
+    }
 }
-
-
-
+@media screen and (min-width: 1080px) {
+.layout {
+  display: flex;
+}
+}
 
 /*
 @media screen and (max-width: 1080px) {
