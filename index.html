@@ -59,12 +59,12 @@ $(document).ready(function() {
 
 </head>
 
-<body style="background-color: black;" onload="randombg()" id="random">
+<body onload="randombg()" id="random">
 
 
 
 
-<bar class="topbar">
+<bar class="topbar" id="test">
 </bar>
 
 
@@ -99,11 +99,14 @@ $(document).ready(function() {
   function on() {
       document.getElementById("overlay").style.display = "inline-block";
         document.getElementById("bgvid").style.display = "none";
+          document.getElementById("test").style.height = "100%";
   }
 
   function off() {
       document.getElementById("overlay").style.display = "none";
       document.getElementById("bgvid").style.display = "inline";
+      document.getElementById("test").style.height = "10%";
+
   }
   </script>
 

@@ -166,14 +166,7 @@ FLEXHAX
 flex: 0 0 200px;
 }
 
-/* Responsive: */
 
-@media only screen and (min-width: 640px) {
-  .layout {
-    display: flex;
-
-  }
-}
 
 /* etc */
 
@@ -211,7 +204,6 @@ flex: 0 0 200px;
     min-height: 100%;
     animation: fadeIn 1s;
     float:left;
-    background-color:black;
 }
 
 
@@ -236,19 +228,24 @@ html{animation: fadeIn 0.2s}
 /* =============================================================================
   MEDIA QUERIES
 ============================================================================= */
-@media screen and (max-device-width: 600px) {
-a {
-  font-size: 7em;
-}
-}
+/* Responsive: */
 
-@media screen and (min-width: 1080px) {
-  body{
-    background-color:black;
+@media only screen and (min-width: 1080px) {
+  .layout {
+    display: flex;
   }
 
+ overlay {
+
+      margin-top: 400px;
+  }
+
+}
 
 
+
+
+/*
 @media screen and (max-width: 1080px) {
   #random {
        background:#000 no-repeat center center fixed;
@@ -302,10 +299,10 @@ a {
     }
 
 
-    /* #menu li {
+    #menu li {
         display:inline-block;
         margin-right: 40px;
-    }  */
+    }
 
 ul {
   padding: 20px;
@@ -313,7 +310,7 @@ ul {
   display: inline-block;
 }
 
-
+*/
 
 
 
