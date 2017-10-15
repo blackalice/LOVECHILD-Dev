@@ -256,6 +256,17 @@ html{animation: fadeIn 0.2s}
       margin: 0 0 0 35px;
     }
 
+    .col-main {
+      flex: 1;
+    }
+
+
+
+
+
+    .col-complementary {
+    flex: 1;
+    }
 
 
 }
