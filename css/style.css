@@ -115,6 +115,7 @@ position: fixed;
 .title {
   padding-bottom: 40px;
   display: block;
+
 }
 
 a svg {
@@ -140,6 +141,10 @@ bar {
   z-index:-2;
 }
 
+.topbar {
+  top: 0px;
+}
+
 .bottombar {
   bottom: 0px;
 }
@@ -155,8 +160,15 @@ FLEXHAX
   flex: 1;
 }
 
+
+.layout {
+  margin-top: 150px;
+  margin-right: 150px;
+}
+
+
 .col-complementary {
-flex: 3;
+flex: 4;
 
 }
 
@@ -180,17 +192,9 @@ flex: 3;
 }
 
 .col {
-  padding: 10% 0 0 50px;
-  margin: 0 50px 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 120px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -208,22 +212,11 @@ flex: 3;
     left: 0;
     right: 0;
     bottom: 0;
-
     z-index: 2;
     cursor: default;
     min-height: 100%;
     animation: fadeIn 1s;
     float:left;
-}
-
-space {
-  width: 300px;
-  margin: 75px 3% 0px 3% ;
-  float:left;
-    display:inline-block;
-    height: 100%;
-    background-color: yellow;
-    clear:none;
 }
 
 right {
@@ -281,7 +274,7 @@ a {
       width: 100%;
       margin: 0px;
       padding: 0px;
-      background-color: black;
+
       display: fixed;
       z-index: 5;
     }

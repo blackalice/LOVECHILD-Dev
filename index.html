@@ -32,7 +32,7 @@ $(document).ready(function() {
 
             var c = content.substr(0, showChar);
  			var h = content;
-            var html = '<div class="truncate-text" style="display:block">' + c + '&nbsp;&nbsp;     <a href="" class="moreless morelink more"></br> </br>show more</a>    </div><div class="truncate-text" style="display:none">' + h + '<a href="" class="morelink moreless less">Less</a></div>';
+            var html = '<div class="truncate-text" style="display:block">' + c + '&nbsp;&nbsp;     <a href="" class="moreless morelink more"></br> </br>show more</a>    </div><div class="truncate-text" style="display:none">' + h + '<a href="" class="morelink moreless less"></br></br>show less</a></div>';
 
             $(this).html(html);
         }
@@ -64,7 +64,7 @@ $(document).ready(function() {
 
 
 
-<bar>
+<bar class="topbar">
 </bar>
 
 
