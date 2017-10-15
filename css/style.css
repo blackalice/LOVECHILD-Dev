@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 body {
-  background-color: black;
+
 }
 
 video#bgvid {
@@ -62,9 +62,9 @@ a {
   font-family: 'Lora', serif;
   color:white;
   text-transform: none;
-    font-weight: normal;
+  font-weight: normal;
   font-size: 0.6em;
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -104,9 +104,6 @@ ul {
     display:block;
 }
 
-
-
-
 nav {
 z-index: 5;
 position: fixed;
@@ -115,14 +112,12 @@ position: fixed;
 .title {
   padding-bottom: 40px;
   display: block;
-
 }
 
 a svg {
   fill: white; !important
   display: block;
-  width:100%;
-  max-width:300px;
+  width: 200px;
   height: auto;
 }
 a svg:hover {
@@ -157,7 +152,7 @@ FLEXHAX
 /* Layout: */
 
 .col-main {
-  flex: 1;
+  flex: 5;
 }
 
 
@@ -168,8 +163,7 @@ FLEXHAX
 
 
 .col-complementary {
-flex: 4;
-
+flex: 0 0 200px;
 }
 
 /* Responsive: */
@@ -177,11 +171,11 @@ flex: 4;
 @media only screen and (min-width: 640px) {
   .layout {
     display: flex;
+
   }
 }
 
 /* etc */
-
 
 
 .container {
@@ -217,22 +211,9 @@ flex: 4;
     min-height: 100%;
     animation: fadeIn 1s;
     float:left;
+    background-color:black;
 }
 
-right {
-  width:auto;
-  margin: 75px 3% 0px 0px ;
-  float: left;
-  display: inline-block;
-  clear:none;
-  height: auto;
-}
-about{
-height: auto;
-float:left;
-display:block;
-
-}
 
 /* =============================================================================
   ANIMATION
@@ -252,7 +233,6 @@ display:block;
 html{animation: fadeIn 0.2s}
 
 
-
 /* =============================================================================
   MEDIA QUERIES
 ============================================================================= */
@@ -261,11 +241,21 @@ a {
   font-size: 7em;
 }
 }
+
+@media screen and (min-width: 1080px) {
+  body{
+    background-color:black;
+  }
+
+
+
 @media screen and (max-width: 1080px) {
-    #random {
-         background:#000 no-repeat center center fixed;
-         background-size: cover;
-    }
+  #random {
+       background:#000 no-repeat center center fixed;
+       background-size: cover;
+  }
+
+
     #bgvid {
         display: none;
     }
@@ -323,11 +313,7 @@ ul {
   display: inline-block;
 }
 
-.title {
-  padding-bottom: 0;
-  display: inherit;
 
-}
 
 
 
