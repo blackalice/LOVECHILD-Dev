@@ -232,7 +232,7 @@ html{animation: fadeIn 0.2s}
 
 @media screen and (max-width: 1080px) {
   a {
-    font-size: 8vw;
+    font-size: 3em;
   }
 
 
@@ -264,12 +264,13 @@ html{animation: fadeIn 0.2s}
     }
 
     .col {
-      padding: 75px 0 0 35px;
+      padding: 0 0 0 35px;
       margin: 0 0 0 0;
     }
 
     .col-main {
       flex: 1;
+      padding-bottom:35px;
     }
 
 
@@ -281,16 +282,27 @@ html{animation: fadeIn 0.2s}
     background-color:black;
     overflow:visible;
     width: 100vw;
+    padding-top:35px;
+
+    padding-bottom: 35px;
     }
 
 
 }
 
+.bottombar {
+  display:none;
 
+}
 
 @media screen and (min-width: 1080px) {
 .layout {
   display: flex;
+}
+
+.bottombar {
+  display:inherit;
+
 }
 }
 
