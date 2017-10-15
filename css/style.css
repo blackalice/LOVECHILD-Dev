@@ -244,7 +244,7 @@ html{animation: fadeIn 0.2s}
   }
 
  #overlay {
-      margin-top: 35px;
+      margin-top: 10px;
 
   }
 
@@ -264,8 +264,8 @@ html{animation: fadeIn 0.2s}
     }
 
     .col {
-      padding: 0 0 0 0;
-      margin: 75px 0 0 35px;
+      padding: 75px 0 0 35px;
+      margin: 0 0 0 0;
     }
 
     .col-main {
@@ -278,6 +278,9 @@ html{animation: fadeIn 0.2s}
 
     .col-complementary {
     flex: 1;
+    background-color:black;
+    overflow:visible;
+    width: 100vw;
     }
 
 
