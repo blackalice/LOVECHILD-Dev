@@ -157,7 +157,7 @@ FLEXHAX
 
 
 .layout {
-  margin-top: 150px;
+
   margin-right: 150px;
 }
 
@@ -180,7 +180,7 @@ flex: 0 0 200px;
 
 .col {
   padding: 0 0 0 0;
-  margin: 0 0 0 120px;
+  margin: 150px 0 0 120px;
 }
 
 
@@ -232,9 +232,7 @@ html{animation: fadeIn 0.2s}
 
 @media screen and (max-width: 1080px) {
   a {
-
     font-size: 8vw;
-
   }
 
 
@@ -251,7 +249,7 @@ html{animation: fadeIn 0.2s}
   }
 
   .layout {
-    margin-top: 150px;
+
     margin-right: 75px;
   }
 
@@ -267,7 +265,7 @@ html{animation: fadeIn 0.2s}
 
     .col {
       padding: 0 0 0 0;
-      margin: 0 0 0 35px;
+      margin: 75px 0 0 35px;
     }
 
     .col-main {
