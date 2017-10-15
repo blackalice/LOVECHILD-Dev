@@ -232,11 +232,15 @@ html{animation: fadeIn 0.2s}
 
 @media screen and (max-width: 1080px) {
 
-
- overlay {
-
-      margin-top: 400px;
+ #overlay {
+      margin-top: 35px;
   }
+
+  .layout {
+    margin-top: 150px;
+    margin-right: 35px;
+  }
+
   #random {
        background:#000 no-repeat center center fixed;
        background-size: cover;
@@ -246,7 +250,18 @@ html{animation: fadeIn 0.2s}
     #bgvid {
         display: none;
     }
+
+    .col {
+      padding: 0 0 0 0;
+      margin: 0 0 0 35px;
+    }
+
+
+
 }
+
+
+
 @media screen and (min-width: 1080px) {
 .layout {
   display: flex;
