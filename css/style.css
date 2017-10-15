@@ -234,11 +234,12 @@ html{animation: fadeIn 0.2s}
 
  #overlay {
       margin-top: 35px;
+
   }
 
   .layout {
     margin-top: 150px;
-    margin-right: 35px;
+    margin-right: 75px;
   }
 
   #random {
