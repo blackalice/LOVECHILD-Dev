@@ -230,7 +230,7 @@ html{animation: fadeIn 0.2s}
 ============================================================================= */
 /* Responsive: */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 700px) {
   a {
     font-size: 3em;
   }
@@ -295,7 +295,7 @@ html{animation: fadeIn 0.2s}
 
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 700px) {
 .layout {
   display: flex;
 }
