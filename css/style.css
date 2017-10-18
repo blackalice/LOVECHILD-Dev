@@ -47,7 +47,10 @@ background-size: cover;
 /* =============================================================================
   TYPE
 ============================================================================= */
-
+.more,.less {
+  margin-bottom: 50px;
+  display:block;
+}
 
 a {
   font-family: 'alternate-gothic-no-1-d', sans-serif;
