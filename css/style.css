@@ -170,7 +170,7 @@ FLEXHAX
   max-width: 100%;
   margin-right: 5%;
   margin-left: 5%;
-  height: 100vh;
+  height: 100%;
 }
 
 
@@ -257,7 +257,6 @@ html{animation: fadeIn 0.2s}
   .layout {
     display:flex;
     flex-wrap: wrap;
-
     margin-top:50px;
       flex-wrap: wrap;
       max-width:1440px;
@@ -266,7 +265,7 @@ html{animation: fadeIn 0.2s}
     max-width: 100%;
     margin-right: 5%;
     margin-left: 5%;
-    height: 100vh;
+    height: 100%;
   }
 
   #overlay {
