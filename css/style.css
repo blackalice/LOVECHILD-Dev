@@ -116,6 +116,7 @@ a svg {
   display: block;
   width: 200px;
   height: auto;
+
 }
 a svg:hover {
   fill: grey; !important
@@ -321,6 +322,7 @@ ul {
   padding-bottom: 15px;
   width:100%;
   display: inline-block;
+
 }
 
 .col-complementary {
@@ -332,9 +334,12 @@ order: 1;
 a svg {
   fill: white; !important
   display: block;
-  width: 400px;
-  max-width: 75%;
+
+  max-width: 50%;
   height: auto;
+  width: auto;
+  max-height: 40vh;
+
 }
 
 
