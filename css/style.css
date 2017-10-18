@@ -247,7 +247,7 @@ html{animation: fadeIn 0.2s}
     display:flex;
     flex-wrap: wrap;
 
-    margin-top:20px;
+    margin-top:50px;
       flex-wrap: wrap;
       max-width:1440px;
   }
@@ -257,7 +257,6 @@ html{animation: fadeIn 0.2s}
     margin-left: 5%;
     height: 100%;
   }
-
 
   #overlay {
       display: none;
@@ -295,6 +294,32 @@ html{animation: fadeIn 0.2s}
 }
 
 video#bgvid {display:none;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#menu li {
+    display:inline-block;
+    padding-right:  15px;
+
+}
+.title {
+  padding-bottom: 15px;
+  width:100%;
+  display: inline-block;
+}
+
+.col-complementary {
+flex: 0 0 0px;
+order: 1;
+}
+
+
 
 }
 
