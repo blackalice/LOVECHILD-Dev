@@ -259,6 +259,8 @@ html{animation: fadeIn 0.2s}
     padding-top: 50px;
     flex-wrap: wrap;
     max-width:1440px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
   .container {
     max-width: 100%;
@@ -289,10 +291,7 @@ html{animation: fadeIn 0.2s}
   }
 
 
-  .layout {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
+
 
 .bottombar {
   display: none;
@@ -318,7 +317,7 @@ ul {
 }
 .title {
   padding-bottom: 15px;
-  width:100%;
+  width:85vw;
   display: inline-block;
 
 }
@@ -333,7 +332,7 @@ a svg {
   fill: white; !important
   display: block;
 
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   width: auto;
   max-height: 40vh;
