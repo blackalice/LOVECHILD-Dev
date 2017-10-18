@@ -4,10 +4,30 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--
+
+
+  Fonts
+
+
+  -->
   <script src="https://use.typekit.net/cus8tqp.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+
+
+  <!--
+
+
+Random Images
+
+
+  -->
 
   <script>
   function randombg(){
@@ -22,7 +42,13 @@
   }
   </script>
 
+<!--
 
+
+TRUNCATE
+
+
+-->
 <script>
 $(document).ready(function() {
 (function(){
@@ -59,11 +85,20 @@ $(document).ready(function() {
 });
 </script>
 
+
+
+
+
+
+
 </head>
 
+
+
+
+
 <body onload="randombg()" id="random">
-
-
+<!--<body>-->
 
 
 <bar class="topbar" id="test">
@@ -96,20 +131,21 @@ $(document).ready(function() {
 
 
 <bar class="bottombar"></bar>
+<div id="backgroundcover"> </div>
+
 
   <script>
   function on() {
       document.getElementById("overlay").style.display = "inline-block";
         /*document.getElementById("bgvid").style.display = "none";*/
-          document.getElementById("test").style.height = "101vh";
+          document.getElementById("backgroundcover").style.height = "101vh";
 
   }
 
   function off() {
       document.getElementById("overlay").style.display = "none";
       /*document.getElementById("bgvid").style.display = "inline";*/
-      document.getElementById("test").style.height = "10%";
-
+      document.getElementById("backgroundcover").style.height = "0%";
   }
   </script>
 

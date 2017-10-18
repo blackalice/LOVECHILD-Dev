@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 body {
-
+background-color:black;
 }
 
 video#bgvid {
@@ -139,6 +139,16 @@ bar {
 
 .bottombar {
   bottom: 0px;
+}
+
+#backgroundcover {
+  height: 0%;
+  top: 0px;
+  background-color: black;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
 }
 
 
@@ -272,7 +282,7 @@ html{animation: fadeIn 0.2s}
       animation: fadeIn 1s;
       float:left;
         padding-left:0;
-        padding-top:1em;
+        padding-top:0.5em;
   }
 
   p {
@@ -299,7 +309,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 
@@ -319,6 +328,29 @@ flex: 0 0 0px;
 order: 1;
 }
 
+
+a svg {
+  fill: white; !important
+  display: block;
+  width: 400px;
+  max-width: 75%;
+  height: auto;
+}
+
+
+a {
+  font-family: 'alternate-gothic-no-1-d', sans-serif;
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#random {
+     background:#000 no-repeat center center fixed;
+     background-size: cover;
+}
 
 
 }
@@ -347,10 +379,6 @@ order: 1;
     margin-right: 75px;
   }
 
-  #random {
-       background:#000 no-repeat center center fixed;
-       background-size: cover;
-  }
 
 
     #bgvid {
