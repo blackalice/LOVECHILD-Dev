@@ -54,12 +54,25 @@ background-size: cover;
 
 a {
   font-family: 'alternate-gothic-no-1-d', sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
+  letter-spacing: 2px;
+  width:100%;
+  display:block;
+
 }
+
+.contactline {
+  border-bottom: 1px dotted white;
+}
+.aboutline {
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+}
+
 
 .morelink {
   font-family: 'Lora', serif;
@@ -83,7 +96,7 @@ h2, p {
 
 
 p {
-    font-size: 3em;
+    font-size: 2.75em;
 }
 
 
@@ -102,6 +115,7 @@ ul {
 
 #menu li {
     display:block;
+
 }
 
 nav {
@@ -314,7 +328,7 @@ ul {
 
 
 #menu li {
-    display:inline-block;
+
     margin-right:  15px;
 
 }
