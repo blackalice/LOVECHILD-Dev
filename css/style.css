@@ -59,18 +59,21 @@ a {
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: 2px;
-  width:100%;
+  letter-spacing: 4px;
+
   display:block;
 
 }
 
 .contactline {
   border-bottom: 1px dotted white;
+  margin-left:20px;
 }
 .aboutline {
   border-top: 1px dotted white;
   border-bottom: 1px dotted white;
+  margin-left: 20px;
+
 }
 
 
