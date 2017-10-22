@@ -67,12 +67,12 @@ a {
 
 .contactline {
   border-bottom: 1px dotted white;
-  margin-left:20px;
+  /*margin-left:20px;*/
 }
 .aboutline {
   border-top: 1px dotted white;
   border-bottom: 1px dotted white;
-  margin-left: 20px;
+/*  margin-left: 20px;*/
 
 }
 
