@@ -68,11 +68,14 @@ a {
 .contactline {
   border-bottom: 1px dotted white;
   margin-left:10px;
+  max-width: 140px;
 }
 .aboutline {
   border-top: 1px dotted white;
   border-bottom: 1px dotted white;
   margin-left: 10px;
+  max-width: 140px;
+
 
 }
 
@@ -99,7 +102,7 @@ h2, p {
 
 
 p {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 
@@ -183,7 +186,7 @@ FLEXHAX
   flex-wrap: wrap;
   padding-top:13px;
     flex-wrap: wrap;
-    max-width:1440px;
+    max-width:1080px;
 }
 .container {
   max-width: 100%;
@@ -234,7 +237,7 @@ order: 1;
 #overlay {
     display: none;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 48px;
     height: auto;
     top: 0;
     left: 0;
@@ -245,7 +248,7 @@ order: 1;
     min-height: 100%;
     animation: fadeIn 1s;
     float:left;
-      padding-left:5%;
+      padding-left:2%;
 }
 
 
@@ -308,7 +311,7 @@ html{animation: fadeIn 0.2s}
   }
 
   p {
-      font-size: 2em;
+      font-size: 1.em;
   }
 
 
