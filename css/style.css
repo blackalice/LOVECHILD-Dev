@@ -247,7 +247,7 @@ order: 1;
     bottom: 0;
     z-index: 2;
     cursor: default;
-    /*min-height: 100%;*/
+    /*  min-height: 100%;*/
     animation: fadeIn 1s;
     float:left;
     padding-left:2%;
@@ -276,6 +276,13 @@ html{animation: fadeIn 0.2s}
   MEDIA QUERIES
 ============================================================================= */
 /* Responsive: */
+
+@media only screen and (max-height: 900px) {
+  .bottombar {
+    display: none;
+  }
+}
+
 
 
 @media only screen and (max-width: 915px) {
@@ -344,6 +351,7 @@ ul {
 .title {
   padding-bottom: 15px;
   width:85vw;
+
   display: inline-block;
 
 }
@@ -358,9 +366,9 @@ a svg {
   fill: white; !important
   display: block;
 
-  max-width: 60%;
+  width: 175px;
   height: auto;
-  width: auto;
+
   max-height: 40vh;
 
 }
