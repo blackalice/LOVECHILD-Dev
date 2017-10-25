@@ -48,7 +48,7 @@ background-size: cover;
   TYPE
 ============================================================================= */
 .more,.less {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   display:block;
 }
 
@@ -59,7 +59,7 @@ a {
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: 3px;
+
 
   display:block;
 
@@ -69,12 +69,14 @@ a {
   border-bottom: 1px dotted white;
 /*  margin-left:10px; */
   max-width: 175px;
+  letter-spacing: 3px;
 }
 .aboutline {
   border-top: 1px dotted white;
   border-bottom: 1px dotted white;
 /*  margin-left: 10px; */
   max-width: 175px;
+  letter-spacing: 3px;
 
 
 }
@@ -186,7 +188,7 @@ FLEXHAX
   flex-wrap: wrap;
   padding-top:52px;
     flex-wrap: wrap;
-    max-width:1080px;
+    max-width:960px;
 }
 .container {
   max-width: 100%;
@@ -237,7 +239,7 @@ order: 1;
 #overlay {
     display: none;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 200px;
     height: auto;
     top: 0;
     left: 0;
@@ -245,10 +247,10 @@ order: 1;
     bottom: 0;
     z-index: 2;
     cursor: default;
-    min-height: 100%;
+    /*min-height: 100%;*/
     animation: fadeIn 1s;
     float:left;
-      padding-left:2%;
+    padding-left:2%;
 }
 
 
