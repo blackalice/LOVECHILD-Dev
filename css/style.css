@@ -306,6 +306,7 @@ html{animation: fadeIn 0.2s}
       display: none;
       width: 100%;
       height: auto;
+      margin-top: 20px;
       top: 0;
       left: 0;
       right: 0;
