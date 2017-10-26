@@ -205,19 +205,11 @@ FLEXHAX
 
 }
 
-
-
-
-
 .col-complementary {
 flex: 0 0 200px;
 order: 1;
 
 }
-
-
-
-
 
 /* etc */
 
@@ -285,7 +277,7 @@ html{animation: fadeIn 0.2s}
 
 
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 760px) {
   .layout {
     display:flex;
     flex-wrap: wrap;

@@ -30,6 +30,7 @@ Random Images
   -->
 
   <script>
+  if (screen.width <= 760) {
   function randombg(){
     var random= Math.floor(Math.random() * 5) + 0;
     var bigSize = ["url('Images/i(1).jpg')",
@@ -40,6 +41,7 @@ Random Images
 
     document.getElementById("random").style.backgroundImage=bigSize[random];
   }
+}
   </script>
 
 <!--
@@ -111,9 +113,9 @@ $(document).ready(function() {
   <!--<video "playsinline autoplay muted loop poster="Images/i(1).jpg" id="bgvid">
       <source src="vidcrop.mp4" type="video/mp4">
   </video>-->
-<video "playsinline autoplay loop muted" id="bgvid">
-      <source src="vidcrop.mp4" type="video/mp4">
-  </video>
+  <video "playsinline autoplay loop muted" id="bgvid">
+        <source src="newvideocrops.mp4" type="video/mp4">
+    </video>
 
 <div class=" col col-complementary" role="complementary">
   <ul id="menu" >
