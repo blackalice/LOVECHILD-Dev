@@ -58,8 +58,6 @@ a {
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-
-
   display:block;
 
 }
@@ -69,6 +67,7 @@ a {
 
   max-width: 175px;
   letter-spacing: 3px;
+  padding-top:3px;
 }
 .aboutline {
   border-top: 1px dotted white;
@@ -76,6 +75,7 @@ a {
 
   max-width: 175px;
   letter-spacing: 3px;
+  padding-top:3px;
 
 
 }
@@ -325,6 +325,7 @@ html{animation: fadeIn 0.2s}
 
   margin-right: 5%;
 
+
   }
 
 
@@ -417,4 +418,13 @@ a {
 }
 
 
+}
+@media only screen and (max-width: 321px) {
+#social{
+
+margin-left: 5%;
+left:0;
+bottom:0;
+
+}
 }

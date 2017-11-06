@@ -132,6 +132,7 @@ $(document).ready(function() {
 
 
   <script>
+
   function on() {
       document.getElementById("overlay").style.display = "inline-block";
           document.getElementById("backgroundcover").style.height = "101vh";
@@ -142,7 +143,26 @@ $(document).ready(function() {
       document.getElementById("overlay").style.display = "none";
       document.getElementById("backgroundcover").style.height = "0%";
   }
+
+
   </script>
+
+<script>
+if (screen.width <= 321) {
+function on() {
+  document.getElementById("overlay").style.display = "inline-block";
+      document.getElementById("backgroundcover").style.height = "101vh";
+      document.getElementById("social").style.display = "none";
+
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("backgroundcover").style.height = "0%";
+    document.getElementById("social").style.display = "block";
+}
+}
+</script>
 
 
 
