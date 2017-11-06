@@ -127,7 +127,6 @@ ul {
 
 #social li {
     display:inline-block;
-    padding-top: 15px;
 }
 
 
@@ -154,13 +153,24 @@ a.logo svg:hover {
 }
 a.socialicon svg:hover {
   fill: white; !important
+
 }
 
 
 .socialicon{
-height:30px;
+height:38px;
 width: auto;
 fill: grey; !important}
+
+#social{
+  float:right;
+  position:absolute;
+  display:block;
+  padding-top:47px;
+  margin-right: 52px;
+  z-index:1;
+  right: 0;
+}
 
 
 /* =============================================================================
@@ -203,7 +213,7 @@ FLEXHAX
 .layout {
   display:flex;
   flex-wrap: wrap;
-  padding-top:35px;
+  padding-top:47px;
     flex-wrap: wrap;
     max-width:960px;
 }
@@ -310,6 +320,13 @@ html{animation: fadeIn 0.2s}
     margin-left: 5%;
     height: 100%;
   }
+
+  #social{
+
+  margin-right: 5%;
+
+  }
+
 
   #overlay {
       display: none;
