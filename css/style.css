@@ -166,7 +166,7 @@ fill: grey; !important}
   float:right;
   position:absolute;
   display:block;
-  padding-top:47px;
+  padding-top:160px;
   margin-right: 52px;
   z-index:1;
   right: 0;
@@ -324,6 +324,7 @@ html{animation: fadeIn 0.2s}
   #social{
 
   margin-right: 5%;
+  padding-top:190px;
 
 
   }
@@ -393,10 +394,8 @@ order: 1;
 a svg {
   fill: white; !important
   display: block;
-
   width: 175px;
   height: auto;
-
   max-height: 40vh;
 
 }
