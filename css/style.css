@@ -40,7 +40,6 @@ z-index: -100;
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
 background-color: black;
-/*background: url('Images/i(6).jpg') no-repeat;*/
 background-size: cover;
 }
 
@@ -67,14 +66,14 @@ a {
 
 .contactline {
   border-bottom: 1px dotted white;
-/*  margin-left:10px; */
+
   max-width: 175px;
   letter-spacing: 3px;
 }
 .aboutline {
   border-top: 1px dotted white;
   border-bottom: 1px dotted white;
-/*  margin-left: 10px; */
+
   max-width: 175px;
   letter-spacing: 3px;
 
@@ -384,149 +383,3 @@ a {
 
 
 }
-
-
-/*
-@media screen and (min-width: 700px) {
-  a {
-    font-size: 3em;
-  }
-
-  a svg {
-    fill: white; !important
-    display: block;
-    width: 50%;
-    height: auto;
-  }
-
- #overlay {
-      margin-top: 10px;
-
-  }
-
-  .layout {
-
-    margin-right: 75px;
-  }
-
-
-
-    #bgvid {
-        display: none;
-    }
-
-    .col {
-      padding: 0 0 0 35px;
-      margin: 0 0 0 0;
-    }
-
-    .col-main {
-      flex: 1;
-      padding-bottom:35px;
-    }
-
-
-
-
-
-    .col-complementary {
-    flex: 1;
-    background-color:black;
-    overflow:visible;
-    width: 100vw;
-    padding-top:35px;
-
-    padding-bottom: 35px;
-    }
-
-
-
-.bottombar {
-  display:none;
-
-}
-}
-
-
-@media screen and (min-width: 700px) {
-.layout {
-  display: flex;
-}
-
-.bottombar {
-  display:inherit;
-
-}
-}
-*/
-/*
-@media screen and (max-width: 1080px) {
-  #random {
-       background:#000 no-repeat center center fixed;
-       background-size: cover;
-  }
-
-
-    #bgvid {
-        display: none;
-    }
-
-    .left {
-      width: 100%;
-      margin: 0px;
-      padding: 0px;
-
-      display: fixed;
-      z-index: 5;
-    }
-
-    nav {
-    z-index: 5;
-    position:relative;
-    margin:5%;
-    }
-
-    about{
-      margin: 5px 3% 3% 3% ;
-      float:left;
-      height: auto;
-      display:inline-block;
-      width: auto;
-
-    }
-
-    #overlay {
-        position: block;
-        margin:0px;
-        padding:0px;
-        float:left;
-        display: none;
-        width: 100%;
-        height: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-        cursor: default;
-        min-height: 100%;
-    }
-
-
-    #menu li {
-        display:inline-block;
-        margin-right: 40px;
-    }
-
-ul {
-  padding: 20px;
-  height: auto;
-  display: inline-block;
-}
-
-
-
-
-
-}
-*/
