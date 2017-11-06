@@ -125,6 +125,12 @@ ul {
 
 }
 
+#social li {
+    display:inline-block;
+    padding-top: 15px;
+}
+
+
 nav {
 z-index: 5;
 position: fixed;
@@ -136,15 +142,27 @@ position: fixed;
 }
 
 a svg {
-  fill: white; !important
   display: block;
+}
+.logo{
   width: 175px;
   height: auto;
+  fill: white; !important}
 
-}
-a svg:hover {
+a.logo svg:hover {
   fill: grey; !important
 }
+a.socialicon svg:hover {
+  fill: white; !important
+}
+
+
+.socialicon{
+height:30px;
+width: auto;
+fill: grey; !important}
+
+
 /* =============================================================================
 BARS
 ============================================================================= */
@@ -185,7 +203,7 @@ FLEXHAX
 .layout {
   display:flex;
   flex-wrap: wrap;
-  padding-top:52px;
+  padding-top:35px;
     flex-wrap: wrap;
     max-width:960px;
 }
