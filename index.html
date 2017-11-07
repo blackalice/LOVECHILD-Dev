@@ -5,58 +5,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!--Fonts-->
-  <script src="https://use.typekit.net/cus8tqp.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-  <!--Random Images-->
-  <script>
-  if (screen.width <= 760) {
-  function randombg(){
-    var random= Math.floor(Math.random() * 4) + 0;
-    var bigSize = ["url('Images/i(1).jpg')",
-                   "url('Images/i(3).jpg')",
-                   "url('Images/i(4).jpg')",
-                   "url('Images/i(5).jpg')"];
-
-    document.getElementById("random").style.backgroundImage=bigSize[random];
-  }
-}
-  </script>
-<!--TRUNCATE-->
-<script>
-$(document).ready(function() {
-(function(){
-  	var showChar = 289;
-
-	$('.truncate').each(function() {
-        var content = $(this).html();
-        if(content.length > showChar) {
-
-            var c = content.substr(0, showChar);
- 			var h = content;
-            var html = '<div class="truncate-text" style="display:block">' + c + '&nbsp;&nbsp;     <a href="" class="moreless morelink more"></br> </br>show more</a>    </div><div class="truncate-text" style="display:none">' + h + '<a href="" class="morelink moreless less"></br></br>show less</a></div>';
-
-            $(this).html(html);
-        }
-
-    });
-
-    $(".moreless").click(function(){
-		var thisEl = $(this);
-        if(thisEl.hasClass("less")) {
-        	thisEl.closest('.truncate-text').prev('.truncate-text').toggle();
-    		thisEl.closest('.truncate-text').slideToggle();
-        } else {
-			thisEl.closest('.truncate-text').toggle();
-			thisEl.closest('.truncate-text').next('.truncate-text').fadeToggle();
-        }
-	   	return false;
-    });
-	/* end iffe */
-	}());
-/* end ready */
-});
-</script>
 </head>
 <body onload="randombg()" id="random">
 <!--<body>-->
@@ -128,6 +76,60 @@ $(document).ready(function() {
 
 <bar class="bottombar"></bar>
 <div id="backgroundcover"> </div>
+
+
+<script src="https://use.typekit.net/cus8tqp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<!--Random Images-->
+<script>
+if (screen.width <= 760) {
+function randombg(){
+  var random= Math.floor(Math.random() * 4) + 0;
+  var bigSize = ["url('Images/i(1).jpg')",
+                 "url('Images/i(3).jpg')",
+                 "url('Images/i(4).jpg')",
+                 "url('Images/i(5).jpg')"];
+
+  document.getElementById("random").style.backgroundImage=bigSize[random];
+}
+}
+</script>
+<!--TRUNCATE-->
+<script>
+$(document).ready(function() {
+(function(){
+  var showChar = 289;
+
+$('.truncate').each(function() {
+      var content = $(this).html();
+      if(content.length > showChar) {
+
+          var c = content.substr(0, showChar);
+    var h = content;
+          var html = '<div class="truncate-text" style="display:block">' + c + '&nbsp;&nbsp;     <a href="" class="moreless morelink more"></br> </br>show more</a>    </div><div class="truncate-text" style="display:none">' + h + '<a href="" class="morelink moreless less"></br></br>show less</a></div>';
+
+          $(this).html(html);
+      }
+
+  });
+
+  $(".moreless").click(function(){
+  var thisEl = $(this);
+      if(thisEl.hasClass("less")) {
+        thisEl.closest('.truncate-text').prev('.truncate-text').toggle();
+      thisEl.closest('.truncate-text').slideToggle();
+      } else {
+    thisEl.closest('.truncate-text').toggle();
+    thisEl.closest('.truncate-text').next('.truncate-text').fadeToggle();
+      }
+    return false;
+  });
+/* end iffe */
+}());
+/* end ready */
+});
+</script>
 
 
   <script>
