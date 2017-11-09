@@ -84,6 +84,7 @@
 
 <!--Random Images-->
 <script>
+if (screen.width <= 760) {
 function randombg() {
   var random= Math.floor(Math.random() * 4) + 0;
   var bigSize = ["url('Images/i(1).jpg')",
@@ -92,6 +93,7 @@ function randombg() {
                  "url('Images/i(5).jpg')"];
 
   document.getElementById("random").style.backgroundImage=bigSize[random];
+}
 }
 </script>
 <!--TRUNCATE-->
