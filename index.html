@@ -96,6 +96,19 @@ function randombg() {
 }
 }
 </script>
+
+<script>
+if (screen.width <= 760) {
+function randombg() {
+  var random= Math.floor(Math.random() * 1) + 0;
+  var bigSize = ["url('Images/tablet.jpg')"
+
+                ];
+
+  document.getElementById("random").style.backgroundImage=bigSize[random];
+}
+}
+</script>
 <!--TRUNCATE-->
 <script>
 $(document).ready(function() {
