@@ -304,6 +304,12 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
 
 
 
@@ -318,6 +324,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 }
 @media only screen
   and (min-device-width: 834px)
@@ -327,6 +340,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 
 }
 @media only screen
@@ -337,6 +357,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 
 }
 @media
@@ -346,6 +373,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 
 }
 @media
@@ -356,6 +390,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 }
 @media screen
   and (device-width: 601px)
@@ -366,6 +407,13 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 
 }
 @media screen
@@ -377,15 +425,29 @@ html{animation: fadeIn 0.2s}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 }
 @media only screen
   and (min-device-width: 800px)
   and (max-device-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 1.5) {
-video#bgvid {display:none;}
-.bottombar {
-  display: none;
-}
+    video#bgvid {display:none;}
+    .bottombar {
+      display: none;
+    }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 }
 
 @media only screen
@@ -396,6 +458,13 @@ video#bgvid {display:none;}
     .bottombar {
       display: none;
     }
+    #random {
+         background:#000 no-repeat center center fixed;
+         background-size: cover;
+         background-image: "url('Images/tablet(5).jpg')"
+
+    }
+
 
 }
 
