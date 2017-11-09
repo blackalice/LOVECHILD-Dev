@@ -296,137 +296,6 @@ html{animation: fadeIn 0.2s}
 ============================================================================= */
 /* Responsive: */
 
-
-
-@media only screen and (max-height: 900px) {
-  .bottombar {
-    display: none;
-  }
-}
-
-
-
-@media only screen and (max-width: 760px) {
-  .layout {
-    display:flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    flex-wrap: wrap;
-    max-width:1440px;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-  .container {
-    max-width: 100%;
-    margin-right: 5%;
-    margin-left: 5%;
-    height: 100%;
-  }
-
-  #social{
-
-  margin-right: 5%;
-  padding-top:190px;
-
-
-  }
-
-
-  #overlay {
-      display: none;
-      width: 100%;
-      height: auto;
-      margin-top: 20px;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 2;
-      cursor: default;
-      min-height: 100%;
-      animation: fadeIn 1s;
-      float:left;
-        padding-left:0;
-        padding-top:0.5em;
-  }
-
-
-
-
-
-
-.bottombar {
-  display: none;
-}
-
-.topbar {
-  height: 0%;
-}
-
-video#bgvid {display:none;}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-#menu li {
-
-    margin-right:  15px;
-
-}
-.title {
-  padding-bottom: 15px;
-  width:85vw;
-
-  display: inline-block;
-
-}
-
-.col-complementary {
-flex: 0 0 0px;
-order: 1;
-}
-
-
-a svg {
-  fill: white; !important
-  display: block;
-  width: 175px;
-  height: auto;
-  max-height: 40vh;
-
-}
-
-
-a {
-  font-family: 'alternate-gothic-no-1-d', sans-serif;
-  font-size: 35px;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#random {
-     background:#000 no-repeat center center fixed;
-     background-size: cover;
-
-}
-
-
-}
-@media only screen and (max-width: 321px) {
-#social{
-
-margin-left: 5%;
-left:0;
-bottom:0;
-
-}
-
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
@@ -575,6 +444,137 @@ bar {
 }
 
 
+
+
+
+@media only screen and (max-height: 900px) {
+  .bottombar {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+  .layout {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    max-width:1440px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .container {
+    max-width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 100%;
+  }
+
+  #social{
+
+  margin-right: 5%;
+  padding-top:190px;
+
+
+  }
+
+
+  #overlay {
+      display: none;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      cursor: default;
+      min-height: 100%;
+      animation: fadeIn 1s;
+      float:left;
+        padding-left:0;
+        padding-top:0.5em;
+  }
+
+
+
+
+
+
+.bottombar {
+  display: none;
+}
+
+.topbar {
+  height: 0%;
+}
+
+video#bgvid {display:none;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu li {
+
+    margin-right:  15px;
+
+}
+.title {
+  padding-bottom: 15px;
+  width:85vw;
+
+  display: inline-block;
+
+}
+
+.col-complementary {
+flex: 0 0 0px;
+order: 1;
+}
+
+
+a svg {
+  fill: white; !important
+  display: block;
+  width: 175px;
+  height: auto;
+  max-height: 40vh;
+
+}
+
+
+a {
+  font-family: 'alternate-gothic-no-1-d', sans-serif;
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#random {
+     background:#000 no-repeat center center fixed;
+     background-size: cover;
+
+}
+
+
+}
+@media only screen and (max-width: 321px) {
+#social{
+
+margin-left: 5%;
+left:0;
+bottom:0;
+
+}
 
 
 
