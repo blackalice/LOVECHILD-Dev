@@ -432,13 +432,13 @@ bottom:0;
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    a svg {
-      fill: pink; !important
-      display: block;
-      width: 175px;
-      height: auto;
-      max-height: 40vh;
-
+    bar {
+      height:240px;
+      background-color: pink;
+      display:block;
+      position: fixed;
+      width: 100%;
+      z-index:-2;
     }
 
 }
@@ -448,13 +448,13 @@ bottom:0;
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    a svg {
-      fill: pink; !important
-      display: block;
-      width: 175px;
-      height: auto;
-      max-height: 40vh;
-
+    bar {
+      height:240px;
+      background-color: pink;
+      display:block;
+      position: fixed;
+      width: 100%;
+      z-index:-2;
     }
 
 video#bgvid {display:none;}
@@ -464,23 +464,55 @@ video#bgvid {display:none;}
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media only screen
   and (min-device-width: 1024px)
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media
   (min-device-width: 800px)
   and (max-device-width: 1280px) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media
   (min-device-width: 800px)
   and (max-device-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 2) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media screen
   and (device-width: 601px)
@@ -488,6 +520,14 @@ video#bgvid {display:none;}
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media screen
   and (device-width: 1536px)
@@ -495,19 +535,43 @@ video#bgvid {display:none;}
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 @media only screen
   and (min-device-width: 800px)
   and (max-device-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 1.5) {
 video#bgvid {display:none;}
+bar {
+  height:240px;
+  background-color: pink;
+  display:block;
+  position: fixed;
+  width: 100%;
+  z-index:-2;
+}
 }
 
 @media only screen
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1.5) {
-video#bgvid {display:none;}
+
+    bar {
+      height:240px;
+      background-color: pink;
+      display:block;
+      position: fixed;
+      width: 100%;
+      z-index:-2;
+    }
 }
 
 
