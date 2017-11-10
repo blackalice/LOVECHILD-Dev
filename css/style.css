@@ -249,7 +249,14 @@ order: 1;
 
 
 
-
+tabletbg{
+  top: 240px;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 240px);
+  background-position: right top;
+  background-size: cover;
+}
 
 
 /* =============================================================================
@@ -307,7 +314,9 @@ html{animation: fadeIn 0.2s}
     {display:none;}
     .bottombar
     {display: none;}
-
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -325,9 +334,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -343,10 +352,10 @@ html{animation: fadeIn 0.2s}
     {display:none;}
     .bottombar
     {display: none;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
 
 
 
@@ -363,9 +372,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -381,9 +390,10 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
+
 
 
 
@@ -401,9 +411,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -423,9 +433,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -444,9 +454,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -462,10 +472,9 @@ html{animation: fadeIn 0.2s}
     {display:none;}
     .bottombar
     {display: none;}
-
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
@@ -484,9 +493,9 @@ html{animation: fadeIn 0.2s}
     .bottombar
     {display: none;}
 
-    #random
-    {background-image:url("../Images/tablet.jpg");
-    background-position:right;}
+    tabletbg {
+      background-image: url("../Images/tablet.jpg");
+    }
 
 
 
