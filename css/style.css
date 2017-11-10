@@ -157,12 +157,12 @@ a.socialicon svg:hover {
 }
 
 
-.socialicon{
+.socialicon {
 height:38px;
 width: auto;
-fill: grey; !important}
+fill: grey; !important }
 
-#social{
+#social {
   float:right;
   position:absolute;
   display:block;
@@ -250,6 +250,7 @@ order: 1;
 
 
 tabletbg{
+
   top: 240px;
   position: absolute;
   display:block;
@@ -258,6 +259,7 @@ tabletbg{
   background-position: right top;
   background-size: cover;
   z-index:-4;
+
 }
 
 
@@ -575,7 +577,9 @@ html{animation: fadeIn 0.2s}
     height: 100%;
   }
 
-  #social{
+  #social
+
+  {
 
   margin-right: 5%;
   padding-top:190px;
@@ -670,8 +674,10 @@ a {
 
 
 }
+
 @media only screen and (max-width: 321px) {
-#social{
+#social
+{
 
 margin-left: 5%;
 left:0;
