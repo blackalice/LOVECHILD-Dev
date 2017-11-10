@@ -257,7 +257,7 @@ tabletbg{
   height: calc(100% - 240px);
   background-position: right top;
   background-size: cover;
-
+  z-index:-4;
 }
 
 
@@ -312,10 +312,14 @@ html{animation: fadeIn 0.2s}
 
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
+
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
@@ -332,10 +336,13 @@ html{animation: fadeIn 0.2s}
   and (-webkit-min-device-pixel-ratio: 2)
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
@@ -350,14 +357,19 @@ html{animation: fadeIn 0.2s}
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2)
   {
+    video{
+      display:none;
+    }
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    .bottombar{
+      display: none;
+    }
+
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
+
 
 
 
@@ -370,14 +382,18 @@ html{animation: fadeIn 0.2s}
   and (-webkit-min-device-pixel-ratio: 2)
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
 
 
 
@@ -388,14 +404,18 @@ html{animation: fadeIn 0.2s}
   and (max-device-width: 1280px)
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
 
 
 
@@ -409,14 +429,19 @@ html{animation: fadeIn 0.2s}
 
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
+
 
 
 
@@ -431,14 +456,18 @@ html{animation: fadeIn 0.2s}
 
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
 
 
 
@@ -452,14 +481,18 @@ html{animation: fadeIn 0.2s}
 
     {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+      video{
+        display:none;
+      }
 
-    tabletbg {
-      background-image: url("../Images/tablet.jpg");
-    }
+      .bottombar{
+        display: none;
+      }
+
+      tabletbg {
+        background-image: url("../Images/tablet.jpg");
+      }
+
 
 
 
@@ -471,10 +504,14 @@ html{animation: fadeIn 0.2s}
   and (-webkit-min-device-pixel-ratio: 1.5)
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
+
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
@@ -491,14 +528,19 @@ html{animation: fadeIn 0.2s}
 
   {
 
-    video
-    {display:none;}
-    .bottombar
-    {display: none;}
+    video{
+      display:none;
+    }
+
+    .bottombar{
+      display: none;
+    }
 
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
+
 
 
 
