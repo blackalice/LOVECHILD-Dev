@@ -252,10 +252,12 @@ order: 1;
 tabletbg{
   top: 240px;
   position: absolute;
+  display:block;
   width: 100%;
   height: calc(100% - 240px);
   background-position: right top;
   background-size: cover;
+
 }
 
 
@@ -317,6 +319,7 @@ html{animation: fadeIn 0.2s}
     tabletbg {
       background-image: url("../Images/tablet.jpg");
     }
+
 
 
 
